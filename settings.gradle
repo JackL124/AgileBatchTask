@@ -1,0 +1,3 @@
+rootProject.name = "AgileBatchTask"
+include ':example'
+include ':agilebatchtask'
