@@ -127,7 +127,7 @@ onError() : 任务执行发生crash或crash后尝试retry后依旧crash回调此
 
 
 * ### BatchCallBack
-执行单一任务需调用此方法来接收结果集<br/>
+批量执行任务需调用此方法来接收结果集<br/>
 onBegin() ：当开始执行任务前会回调此方法，此回调执行在调用execute()所在的线程，如无特殊写法，默认mainThread.<br/>
 onProgress() : 线程池中某个任务执行完成后且doAfterTsak也执行完成会回调此方法当前进度及结果，此回调执行在调用execute()所在的线程，如无特殊写法，默认mainThread.<br/>
 onFinish() : 任务全部执行完成后会回调此方法，此回调执行在调用execute()所在的线程，如无特殊写法，默认mainThread.<br/>
