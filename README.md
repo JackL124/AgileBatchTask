@@ -81,6 +81,9 @@ AgileBatch().Builder()
 
 ```
 
+## 案例
+可借鉴[example](https://github.com/JackL124/AgileBatchTask/example/src/main/java/com/jackl/example/)中的案例使用
+
 ## 进阶
 
 * ### doBeforeTsak
