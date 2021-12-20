@@ -51,6 +51,7 @@ repositories {
             .addTask(MyRequsetModel())
             .doBeginTsak(object :FunctionTask1<IRequestTask,IResponseTask>{
                 override fun invoke(p1: IRequestTask?): IResponseTask? {
+                // TODO: do something 
                     return MyResponseModel()
                 }
             })
@@ -69,6 +70,7 @@ AgileBatch().Builder()
             .addTasks(taskList)
             .doBeginTsak(object : FunctionTask1<IRequestTask, IResponseTask> {
                 override fun invoke(p1: IRequestTask?): IResponseTask? {
+                // TODO: do something 
                     return MyResponseModel()
                 }
             })
