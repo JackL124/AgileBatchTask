@@ -1,5 +1,5 @@
 
- # **AgileBatchTas** #
+ # **AgileBatchTask** #
  
  [![License](https://img.shields.io/badge/License%20-Apache%202-337ab7.svg)](https://www.apache.org/licenses/LICENSE-2.0)
  [![](https://jitpack.io/v/JackL124/AgileBatchTask.svg)](https://www.jitpack.io/#JackL124/AgileBatchTask)
@@ -37,7 +37,7 @@ repositories {
 * ##### 2.在app build.gradle 中添加依赖
 ```
  dependencies {
- 	       implementation 'com.github.JackL124:AgileBatchTask:-SNAPSHOT'
+    implementation 'com.github.JackL124:AgileBatchTask:1.0.0'
  	}
 ```
 
@@ -82,7 +82,7 @@ AgileBatch().Builder()
 ```
 
 ## 案例
-可借鉴[example](https://github.com/JackL124/AgileBatchTask/example/src/main/java/com/jackl/example/)中的案例使用
+可参考[example](https://github.com/JackL124/AgileBatchTask/tree/main/example/src/main/java/com/jackl/example)中的案例使用
 
 ## 进阶
 
